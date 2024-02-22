@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+nav {
+    background-color:white;
+    height: 85px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul img{
+    width:200px;
+}
+a:hover{
+    color:azure;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    height: 100%;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(24, 8, 8);
+    display: flex;
+    align-items: center;
+}
+
+.istorijat:hover{
+
+    background-color:#2b2b2b;
+    height: 80px;
+    color:azure;
+    text-align: center;
+}
+.repertoar:hover{
+    background-color:#2b2b2b;
+    height: 80px;
+    color:azure;
+}
+.besplatnekarte:hover{
+
+    background-color: #2b2b2b;
+    height: 80px;
+    color:azure;
+}
+.registrujtese:hover{
+    background-color:#2b2b2b;
+    height: 80px;
+    color:azure;
+    text-align: center;
+}
+.pocetna:hover{
+    background-color:#2b2b2b;
+    height: 80px;
+    color:azure;
+}
+
+ul img{
+    display: inline-block;
+    width:300px;
+   
+}
+.pocetna{
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 50px;
+    margin:auto;
+}
+ .istorijat{
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 50px;
+    margin:auto;
+}
+.repertoar{
+    margin-left:auto;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 50px;
+    margin:auto;
+}
+.besplatnekarte{
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 50px;
+    margin:auto;
+    text-align: center;
+}
+
+.registrujtese{
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1200px;
+    padding: 0px 50px;
+    margin:auto;
+    text-align: center;
+}
+
+.main {
+    background-image: url(slike/osama.png); 
+    background-size: cover;
+    height: 630px; 
+    position: relative;
+}
+.transparent {
+    background-color: rgba(0, 0, 0, 0.865); 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+}
+
+.odbrojavanje{
+    background-color: none;
+    align-content: center;
+    align-content: center;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.proba{
+    margin-right:300px;
+    padding-right:400px;
+    padding-top:300px;
+    padding-left:20px;
+}
+#demo{
+    font-size: 30px;;
+}
+footer{
+    width:100%;
+    padding:5px;
+     text-align:center;
+     background-color:#323232;
+     height: 350px;
+}
+#mapa {
+    opacity: 0.7;
+    margin-top: 30px;
+}
+
+.roditeljski{
+    display:flex;
+}
+
+.div1,.div2{
+    width: 500px;
+            height: 100px;
+            margin:10px;
+}
+
+form{
+    margin: auto;
+    width: 600px;
+    border-radius: 5px;
+    background-color: rgb(142, 68, 68);
+    opacity: 0.8;
+    padding:  10px 20px;
+    color: white;
+    margin-top: 10px;
+}
+button {
+    color: white;
+    background-color: rgb(113, 26, 26);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.registrujpozadina{
+    background-image: url(slike/registruj.png); 
+    background-size: cover;
+    height: 100%; 
+    position: relative;
+}
+.aktivna{
+    background-color: #2b2b2b;
+    color: white;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+}
+
+.main2 {
+    background-image: url(slike/sorele.png); 
+    background-size: cover;
+    height: 630px; 
+    position: relative;
+}
+.transparent2 {
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+}
+.skup {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.prvapredstava {
+    display: flex;
+    align-items: center;
+}
+
+.show-details img {
+    width: 200px; 
+    margin-right: 20px; 
+}
+
+.tekst1 {
+    max-width: 600px;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+
+.main3 {
+    background-image: url(slike/repertoar.png); 
+    background-size: cover;
+    height: 1000px; 
+    position: relative;
+}
+.transparent3 {
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; 
+}
+
+.drugapredstava {
+    display: flex;
+    align-items: center;
+}
+
+.vozslika {
+    width: 200px; 
+    margin-right: 20px; 
+}
+.tekst2 {
+    max-width: 600px;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.proba4{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid black;
+}
+
+.repertoarpozadina{
+background-image: url(slike/repertoar.png); 
+}

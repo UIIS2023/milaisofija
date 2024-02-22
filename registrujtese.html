@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stilovicss.css">
+    <title>Регистрација</title>
+    <style>
+        body{
+            background-color: rgb(160, 160, 160);
+        }
+    </style>
+</head>
+<body class="registrujpozadina">
+    
+    <nav>
+        <ul>
+            <div>
+                <li class="logo"><img src="slike/zvezdaralogo.png" alt="Zvezdara logo"></li>
+            </div>
+            <li class="pocetna"> <a href="pocetna.html">Насловна страна</a></li>
+            <li class="istorijat" ><a href="istorijat.html">Историјат</a></li>
+            <li class="repertoar"><a href="repertoar.html">Репертоар </a></li>
+            <li class="besplatnekarte" class="besplatnekarte:hover"><a href="index.html">Бесплатне карте</a></li>
+            <li class="aktivna"><a href="registrujtese.html">Региструјте се</a></li>
+          </ul>
+      </nav>
+    <form>
+        <label for="ime">Име:</label> <br>
+        <input id="ime" name="ime" type="text" style="margin-top: 10px; width: 590px; height: 20px;" required> <br>
+        <br>
+        <label for="prezime">Презиме:</label> <br>
+        <input id="prezime" name="prezime" type="text" style="margin-top: 10px; width: 590px; height: 20px;" required> <br>
+        <br>
+        <label for="mejl">Мејл адреса:</label> <br> 
+        <input id="mejl" name="mejl" type="email" style="margin-top: 10px; width: 590px; height: 20px;" required> <br>
+        <br>
+        <label for="sifra">Шифра:</label> <br>
+        <input id="sifra" name="sifra" type="password" style="margin-top: 10px; width: 590px; height: 20px;" required> <br>
+        <br>
+        <label for="tel">Број телефона:</label> <br>
+        <input id="tel" name="tel" type="tel" style="margin-top: 10px; width: 590px; height: 20px;" required> <br>
+        <br>
+        <legend>Пол:</legend>
+        <select style="margin-top: 10px; width: 590px; height: 20px;">
+            <option value="m" >Мушки</option>
+            <option value="z">Женски</option>
+        </select> <br>
+        <br>
+        <label>Напомена:</label> <br>
+        <br>
+        <textarea rows="15" cols="78"></textarea>
+        <button type="submit">Потврди</button>
+    </form> <br>
+    
+</body>
+</html>
